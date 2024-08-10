@@ -1,0 +1,61 @@
+body {
+    background-color: dimgray;
+    overflow-x: hidden;
+}
+
+nav {
+    background-color: black;
+}
+
+.navbar-brand {
+    color:white;
+    margin-left: 20px;
+}
+
+.nav-item {
+    cursor: pointer;
+}
+
+.nav-item .nav-link.active {
+    background-color: gold;
+    border: 1px solid gold;
+    color: black;
+}
+.nav-pills .nav-link:not(.active) {
+    border: 1px solid gold;
+    color: gold;
+}
+.nav-pills .nav-link:hover {
+    background-color: yellow;
+    color: black;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+.card {
+    background-color: gray;
+    margin: 5px;
+}
+
+img {
+    border-radius: 20px;
+}
+
+.main-content {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.contentDiv {
+    scroll-margin-top: 100px;
+}
+
+h3 {
+    color: goldenrod;
+}
+
+hr {
+    margin: 50px;
+}
