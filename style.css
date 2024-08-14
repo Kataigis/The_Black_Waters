@@ -8,8 +8,12 @@ nav {
 }
 
 .navbar-brand {
-    color:white;
     margin-left: 20px;
+    border-radius: 10px;
+}
+
+.navbar-brand:hover {
+    background-color: goldenrod;
 }
 
 .nav-item {
@@ -35,8 +39,28 @@ nav {
 }
 
 .card {
-    background-color: gray;
     margin: 5px;
+    border-radius: 10px;
+    color: white;
+}
+.mon {
+    background-color: chocolate;
+}
+.spell {
+    background-color: green;
+}
+.trap {
+    background-color: purple;
+}
+.synchro {
+    background-color: whitesmoke;
+    color: black;
+}
+.xyz {
+    background-color: black;
+}
+.linkm {
+    background-color: blue;
 }
 
 img {
