@@ -1,10 +1,10 @@
 body {
-    background-color: dimgray;
+    background-color: #898385;
     overflow-x: hidden;
 }
 
 nav {
-    background-color: black;
+    background-color: #252523;
 }
 
 .navbar-brand {
@@ -13,7 +13,7 @@ nav {
 }
 
 .navbar-brand:hover {
-    background-color: goldenrod;
+    background-color: #f4de54;
 }
 
 .nav-item {
@@ -21,16 +21,16 @@ nav {
 }
 
 .nav-item .nav-link.active {
-    background-color: gold;
-    border: 1px solid gold;
+    background-color: #f4de54;
+    border: 1px solid #f4de54;
     color: black;
 }
 .nav-pills .nav-link:not(.active) {
-    border: 1px solid gold;
-    color: gold;
+    border: 1px solid #dfd38b;
+    color: #dfd38b;
 }
 .nav-pills .nav-link:hover {
-    background-color: yellow;
+    background-color: #f2d835;
     color: black;
 }
 
@@ -40,27 +40,31 @@ nav {
 
 .card {
     margin: 5px;
+    border: 2px solid #252523;
     border-radius: 10px;
     color: white;
 }
 .mon {
-    background-color: chocolate;
+    background-color: #c27145;
 }
 .spell {
-    background-color: green;
+    background-color: #159688;
 }
 .trap {
-    background-color: purple;
+    background-color: #bb4889;
+}
+.fusion {
+    background-color: #80479c;
 }
 .synchro {
-    background-color: whitesmoke;
+    background-color: #f7f6f3;
     color: black;
 }
 .xyz {
-    background-color: black;
+    background-color: #12131a;
 }
 .linkm {
-    background-color: blue;
+    background-color: #0070b3;
 }
 
 img {
@@ -76,8 +80,8 @@ img {
     scroll-margin-top: 100px;
 }
 
-h3 {
-    color: goldenrod;
+h3, h4 {
+    color: #f4de54;
 }
 
 hr {
