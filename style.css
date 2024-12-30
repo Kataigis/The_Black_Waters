@@ -1,3 +1,19 @@
+::-webkit-scrollbar {
+    width: 10px;
+}
+  
+::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+}
+   
+::-webkit-scrollbar-thumb {
+    background: #666; 
+}
+  
+::-webkit-scrollbar-thumb:hover {
+    background: #444; 
+}
+
 body {
     background-color: #898385;
     overflow-x: hidden;
@@ -57,14 +73,20 @@ nav {
     background-color: #80479c;
 }
 .synchro {
-    background-color: #f7f6f3;
+    background-color: #e1e0dd;
     color: black;
+}
+.synchro h4 {
+    color: #252523;
 }
 .xyz {
     background-color: #12131a;
 }
 .linkm {
     background-color: #0070b3;
+}
+.rit {
+    background-color: #175c84;
 }
 
 img {
