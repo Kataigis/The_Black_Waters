@@ -11,9 +11,24 @@ $(document).ready(function () {
         pageTransition("engine");
     });
 
+    document.getElementById("alienbtn").addEventListener('click', function (e) {
+        pageTransition("engine");
+        document.getElementById("aliencontent").scrollIntoView({ behavior: 'smooth' });
+    });
+
     document.getElementById("evolbtn").addEventListener('click', function (e) {
         pageTransition("engine");
         document.getElementById("evolcontent").scrollIntoView({ behavior: 'smooth' });
+    });
+
+    document.getElementById("melobtn").addEventListener('click', function (e) {
+        pageTransition("engine");
+        document.getElementById("melocontent").scrollIntoView({ behavior: 'smooth' });
+    });
+
+    document.getElementById("mitsubtn").addEventListener('click', function (e) {
+        pageTransition("engine");
+        document.getElementById("mitsucontent").scrollIntoView({ behavior: 'smooth' });
     });
 
     document.getElementById("raikabtn").addEventListener('click', function (e) {
@@ -24,6 +39,11 @@ $(document).ready(function () {
     document.getElementById("annebtn").addEventListener('click', function (e) {
         pageTransition("engine");
         document.getElementById("annecontent").scrollIntoView({ behavior: 'smooth' });
+    });
+
+    document.getElementById("therionbtn").addEventListener('click', function (e) {
+        pageTransition("engine");
+        document.getElementById("therioncontent").scrollIntoView({ behavior: 'smooth' });
     });
 
     document.getElementById("techbtn").addEventListener('click', function () {
