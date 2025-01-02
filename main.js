@@ -64,7 +64,7 @@ function pageTransition(id) {
     var contents = document.getElementsByClassName("tabContent");
     Array.from(btns).forEach((el) => {
         el.classList.remove("active");
-        console.log("removed");
+        //console.log("removed");
     });
     Array.from(contents).forEach((el) => {
         el.style.display = "none";
@@ -72,5 +72,10 @@ function pageTransition(id) {
     window.scrollTo(0, 0);
     document.getElementById(`${id}btn`).classList.add("active");
     $(`#${id}content`).fadeIn(600);
-    console.log(`${id}btn ${id}content`);
+    //console.log(`${id}btn ${id}content`);
+}
+
+function swapcontent(id) {
+    $(`#${id}`).find(".rationale").toggle();
+    $(`#${id}`).find(".cardinfo").toggle();
 }
