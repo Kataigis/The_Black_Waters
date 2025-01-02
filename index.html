@@ -24,6 +24,8 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
     <link rel="stylesheet" href="style.css">
     <script src="main.js"></script>
 </head>
@@ -71,14 +73,18 @@
             <div class="row justify-content-center">
                 <div class="col-lg-5">
                     <div class="card mon border-dark">
-                        <div class="card-body">
+                        <div class="card-body" id="nunu">
                             <div class="row">
                                 <div class="col-lg-4">
                                     <img src="arts/nunu.png" width="100%"/>
                                 </div>
-                                <div class="col-lg-8">
-                                    <h4>3x Nunu</h4>
+                                <div class="col-lg-8 rationale">
+                                    <h4><a href="javascript:swapcontent('nunu')"><i class="fa fa-chevron-down"></i></a> 3x Nunu</h4>
                                     <p>sample text</p>
+                                </div>
+                                <div class="col-lg-8 cardinfo" style="display:none">
+                                    <h4><a href="javascript:swapcontent('nunu')"><i class="fa fa-chevron-up"></i></a> Nunu, the Ogdoadic Remnant</h4>
+                                    <p>Level 4 LIGHT Reptile/Effect 0/0<br>You can send this card from your hand to the GY; send 1 DARK Reptile monster from your Deck to the GY. If you control no monsters, or you control an "Ogdoadic" monster: You can Special Summon this card from your GY, but banish it when it leaves the field, also you cannot Special Summon monsters, except Reptile monsters, while this card is face-up in the Monster Zone. You can only use each effect of "Nunu, the Ogdoadic Remnant" once per turn.</p>
                                 </div>
                             </div>
                         </div>
@@ -86,14 +92,18 @@
                 </div>
                 <div class="col-lg-5">
                     <div class="card mon border-dark">
-                        <div class="card-body">
+                        <div class="card-body" id="nauya">
                             <div class="row">
                                 <div class="col-lg-4">
                                     <img src="arts/nauya.jpg" width="100%"/>
                                 </div>
-                                <div class="col-lg-8">
-                                    <h4>3x Nauya</h4>
+                                <div class="col-lg-8 rationale">
+                                    <h4><a href="javascript:swapcontent('nauya')"><i class="fa fa-chevron-down"></i></a> 3x Nauya</h4>
                                     <p>sample text</p>
+                                </div>
+                                <div class="col-lg-8 cardinfo" style="display:none">
+                                    <h4><a href="javascript:swapcontent('nauya')"><i class="fa fa-chevron-up"></i></a> Nauya, the Ogdoadic Remnant</h4>
+                                    <p>Level 4 DARK Reptile/Effect 0/2000<br>You can send this card from your hand to the GY; send 1 LIGHT Reptile monster from your Deck to the GY. If this card is Normal or Special Summoned: You can add 1 "Ogdoadic" Spell/Trap from your Deck to your hand. You can only use each effect of "Nauya, the Ogdoadic Remnant" once per turn.</p>
                                 </div>
                             </div>
                         </div>
@@ -103,14 +113,18 @@
             <div class="row justify-content-center">
                 <div class="col-lg-5">
                     <div class="card mon border-dark">
-                        <div class="card-body">
+                        <div class="card-body" id="flogos">
                             <div class="row">
                                 <div class="col-lg-4">
                                     <img src="arts/flogos.png" width="100%"/>
                                 </div>
-                                <div class="col-lg-8">
-                                    <h4>0-1x Flogos</h4>
+                                <div class="col-lg-8 rationale">
+                                    <h4><a href="javascript:swapcontent('flogos')"><i class="fa fa-chevron-down"></i></a> 0-1x Flogos</h4>
                                     <p>sample text</p>
+                                </div>
+                                <div class="col-lg-8 cardinfo" style="display:none">
+                                    <h4><a href="javascript:swapcontent('flogos')"><i class="fa fa-chevron-up"></i></a> Flogos, the Ogdoadic Boundless</h4>
+                                    <p>Level 4 LIGHT Reptile/Effect 1800/1400<br>If this card is sent from the field to the GY, or Special Summoned from the GY: You can target 1 face-up monster your opponent controls, and 1 monster in their GY with an equal or higher ATK than that target; Special Summon that monster from the GY to their field, and if you do, send that other monster they control to the GY. If this card is in your GY: You can send 1 card from your hand to the GY; add this card to your hand. You can only use each effect of "Flogos, the Ogdoadic Boundless" once per turn.</p>
                                 </div>
                             </div>
                         </div>
@@ -118,14 +132,18 @@
                 </div>
                 <div class="col-lg-5">
                     <div class="card mon border-dark">
-                        <div class="card-body">
+                        <div class="card-body" id="zohah">
                             <div class="row">
                                 <div class="col-lg-4">
                                     <img src="arts/zohah.png" width="100%"/>
                                 </div>
-                                <div class="col-lg-8">
-                                    <h4>1x Zohah</h4>
+                                <div class="col-lg-8 rationale">
+                                    <h4><a href="javascript:swapcontent('zohah')"><i class="fa fa-chevron-down"></i></a> 1x Zohah</h4>
                                     <p>sample text</p>
+                                </div>
+                                <div class="col-lg-8 cardinfo" style="display:none">
+                                    <h4><a href="javascript:swapcontent('zohah')"><i class="fa fa-chevron-up"></i></a> Zohah, the Ogdoadic Boundless</h4>
+                                    <p>Level 4 DARK Reptile/Effect 1500/1700<br>If this card is sent from the field to the GY, or Special Summoned from the GY: You can activate this effect; your opponent draws 1 card, and if they do, you add 1 "Ogdoadic" monster from your Deck to your hand, except "Zohah, the Ogdoadic Boundless", then, each player sends 1 card from their hand to the GY. If this card is in your GY: You can send 1 card from your hand to the GY; add this card to your hand. You can only use each effect of "Zohah, the Ogdoadic Boundless" once per turn.</p>
                                 </div>
                             </div>
                         </div>
@@ -135,14 +153,18 @@
             <div class="row justify-content-center">
                 <div class="col-lg-5">
                     <div class="card mon border-dark">
-                        <div class="card-body">
+                        <div class="card-body" id="keurse">
                             <div class="row">
                                 <div class="col-lg-4">
                                     <img src="arts/keurse.png" width="100%"/>
                                 </div>
-                                <div class="col-lg-8">
-                                    <h4>1x Keurse</h4>
+                                <div class="col-lg-8 rationale">
+                                    <h4><a href="javascript:swapcontent('keurse')"><i class="fa fa-chevron-down"></i></a> 1x Keurse</h4>
                                     <p>sample text</p>
+                                </div>
+                                <div class="col-lg-8 cardinfo" style="display:none">
+                                    <h4><a href="javascript:swapcontent('keurse')"><i class="fa fa-chevron-up"></i></a> Keurse, the Ogdoadic Light</h4>
+                                    <p>Level 8 LIGHT Reptile/Effect 400/2400<br>If this card is in your GY: You can Tribute 1 monster; Special Summon this card, then your opponent can Special Summon 1 monster from their GY, but negate its effects. If this card is Special Summoned: You can target 1 Level 4 or lower "Ogdoadic" monster in your GY; Special Summon it, but banish it when it leaves the field. You can only use each effect of "Keurse, the Ogdoadic Light" once per turn.</p>
                                 </div>
                             </div>
                         </div>
@@ -150,14 +172,18 @@
                 </div>
                 <div class="col-lg-5">
                     <div class="card mon border-dark">
-                        <div class="card-body">
+                        <div class="card-body" id="aleirtt">
                             <div class="row">
                                 <div class="col-lg-4">
                                     <img src="arts/aleirtt.png" width="100%"/>
                                 </div>
-                                <div class="col-lg-8">
-                                    <h4>0-1x Aleirtt</h4>
+                                <div class="col-lg-8 rationale">
+                                    <h4><a href="javascript:swapcontent('aleirtt')"><i class="fa fa-chevron-down"></i></a> 0-1x Aleirtt</h4>
                                     <p>sample text</p>
+                                </div>
+                                <div class="col-lg-8 cardinfo" style="display:none">
+                                    <h4><a href="javascript:swapcontent('aleirtt')"><i class="fa fa-chevron-up"></i></a> Aleirtt, the Ogdoadic Dark</h4>
+                                    <p>Level 8 DARK Reptile/Effect 2000/800<br>If this card is in your GY: You can Tribute 1 monster; Special Summon this card, then your opponent can add 1 monster from their GY to their hand. If this card is Special Summoned: You can target 2 of your banished monsters, including a Reptile monster; return them to the GY. You can only use each effect of "Aleirtt, the Ogdoadic Dark" once per turn.</p>
                                 </div>
                             </div>
                         </div>
@@ -167,14 +193,18 @@
             <div class="row justify-content-center">
                 <div class="col-lg-5">
                     <div class="card mon border-dark">
-                        <div class="card-body">
+                        <div class="card-body" id="aron">
                             <div class="row">
                                 <div class="col-lg-4">
                                     <img src="arts/aron.png" width="100%"/>
                                 </div>
-                                <div class="col-lg-8">
-                                    <h4>0-1x Aron</h4>
+                                <div class="col-lg-8 rationale">
+                                    <h4><a href="javascript:swapcontent('aron')"><i class="fa fa-chevron-down"></i></a> 0-1x Aron</h4>
                                     <p>sample text</p>
+                                </div>
+                                <div class="col-lg-8 cardinfo" style="display:none">
+                                    <h4><a href="javascript:swapcontent('aron')"><i class="fa fa-chevron-up"></i></a> Aron, the Ogdoadic King</h4>
+                                    <p>Level 8 LIGHT Reptile/Effect 2500/2800<br>If this card is in your GY: You can Tribute 2 monsters; Special Summon this card. If your opponent adds a card(s) to their hand (except during the Draw Phase or Damage Step): You can send 1 random card from their hand to the GY. If a monster(s) your opponent controls is sent to the GY (except during the Damage Step): You can add 1 LIGHT or DARK Reptile monster from your Deck or GY to your hand, except "Aron, the Ogdoadic King". You can only use each effect of "Aron, the Ogdoadic King" once per turn.</p>
                                 </div>
                             </div>
                         </div>
@@ -182,14 +212,18 @@
                 </div>
                 <div class="col-lg-5">
                     <div class="card mon border-dark">
-                        <div class="card-body">
+                        <div class="card-body" id="amun">
                             <div class="row">
                                 <div class="col-lg-4">
                                     <img src="arts/amun.jpg" width="100%"/>
                                 </div>
-                                <div class="col-lg-8">
-                                    <h4>0-1x Amunessia</h4>
+                                <div class="col-lg-8 rationale">
+                                    <h4><a href="javascript:swapcontent('amun')"><i class="fa fa-chevron-down"></i></a> 0-1x Amunessia</h4>
                                     <p>sample text</p>
+                                </div>
+                                <div class="col-lg-8 cardinfo" style="display:none">
+                                    <h4><a href="javascript:swapcontent('amun')"><i class="fa fa-chevron-up"></i></a> Amunessia, the Ogdoadic Queen</h4>
+                                    <p>Level 8 DARK Reptile/Effect 2700/2100<br>If this card is in your GY: You can Tribute 2 monsters; Special Summon this card. If a monster(s) is Special Summoned from your opponent's GY (except during the Damage Step): You can send 1 card they control to the GY. If a monster(s) is sent from your opponent's hand or Deck to the GY (except during the Damage Step): You can Special Summon 1 LIGHT or DARK Reptile monster from your GY, except "Amunessia, the Ogdoadic Queen". You can only use each effect of "Amunessia, the Ogdoadic Queen" once per turn.</p>
                                 </div>
                             </div>
                         </div>
@@ -199,14 +233,18 @@
             <div class="row justify-content-center">
                 <div class="col-lg-5">
                     <div class="card mon border-dark">
-                        <div class="card-body">
+                        <div class="card-body" id="ogdoabyss">
                             <div class="row">
                                 <div class="col-lg-4">
                                     <img src="arts/ogdoabyss.jpg" width="100%"/>
                                 </div>
-                                <div class="col-lg-8">
-                                    <h4>0-1x Ogdoabyss</h4>
+                                <div class="col-lg-8 rationale">
+                                    <h4><a href="javascript:swapcontent('ogdoabyss')"><i class="fa fa-chevron-down"></i></a> 0-1x Ogdoabyss</h4>
                                     <p>sample text</p>
+                                </div>
+                                <div class="col-lg-8 cardinfo" style="display:none">
+                                    <h4><a href="javascript:swapcontent('ogdoabyss')"><i class="fa fa-chevron-up"></i></a> Ogdoabyss, the Ogdoadic Overlord</h4>
+                                    <p>Level 10 LIGHT Reptile/Effect 3100/2200<br>If this card is in your GY: You can Tribute 3 monsters; Special Summon this card. Once, while this card is face-up on the field (Quick Effect): You can send all monsters from the field to the GY, except face-up monsters Special Summoned from the GY. You can only use each effect of "Ogdoabyss, the Ogdoadic Overlord" once per turn.</p>
                                 </div>
                             </div>
                         </div>
@@ -214,14 +252,18 @@
                 </div>
                 <div class="col-lg-5">
                     <div class="card mon border-dark">
-                        <div class="card-body">
+                        <div class="card-body" id="neph">
                             <div class="row">
                                 <div class="col-lg-4">
                                     <img src="arts/neph.jpg" width="100%"/>
                                 </div>
-                                <div class="col-lg-8">
-                                    <h4>1x Nephilabyss</h4>
+                                <div class="col-lg-8 rationale">
+                                    <h4><a href="javascript:swapcontent('neph')"><i class="fa fa-chevron-down"></i></a> 1x Nephilabyss</h4>
                                     <p>sample text</p>
+                                </div>
+                                <div class="col-lg-8 cardinfo" style="display:none">
+                                    <h4><a href="javascript:swapcontent('neph')"><i class="fa fa-chevron-up"></i></a> Nephilabyss, the Ogdoadic Overlord</h4>
+                                    <p>Level 10 DARK Reptile/Effect 2200/3100<br>If a monster(s) is sent from the hand or Deck to the GY, while this card is in your GY (except during the Damage Step): You can Special Summon this card, also you cannot Special Summon monsters until the end of the next turn, except Reptile monsters. If you control this card that was Special Summoned from the GY: You can target 1 monster in your GY, except "Nephilabyss, the Ogdoadic Overlord"; Special Summon it. You can only use each effect of "Nephilabyss, the Ogdoadic Overlord" once per turn.</p>
                                 </div>
                             </div>
                         </div>
@@ -231,14 +273,18 @@
             <div class="row justify-content-center">
                 <div class="col-lg-5">
                     <div class="card spell border-dark">
-                        <div class="card-body">
+                        <div class="card-body" id="daybreak">
                             <div class="row">
                                 <div class="col-lg-4">
                                     <img src="arts/daybreak.jpg" width="100%"/>
                                 </div>
-                                <div class="col-lg-8">
-                                    <h4>1-3x Daybreak</h4>
+                                <div class="col-lg-8 rationale">
+                                    <h4><a href="javascript:swapcontent('daybreak')"><i class="fa fa-chevron-down"></i></a> 1-3x Daybreak</h4>
                                     <p>sample text</p>
+                                </div>
+                                <div class="col-lg-8 cardinfo" style="display:none">
+                                    <h4><a href="javascript:swapcontent('daybreak')"><i class="fa fa-chevron-up"></i></a> Ogdoadic Daybreak</h4>
+                                    <p>Quick-Play Spell<br>Tribute 1 Reptile monster; for every 2 Levels that Tributed monster had on the field, Special Summon up to 1 "Ogdoadic Token" (Reptile/DARK/Level 2/ATK 0/DEF 0). During your Main Phase: You can banish this card from your GY, then target 1 of your banished Reptile monsters; shuffle it into the Deck, then you can send 1 Reptile monster from your Deck to the GY. You can only use each effect of "Ogdoadic Daybreak" once per turn.</p>
                                 </div>
                             </div>
                         </div>
@@ -246,14 +292,18 @@
                 </div>
                 <div class="col-lg-5">
                     <div class="card spell border-dark">
-                        <div class="card-body">
+                        <div class="card-body" id="origin">
                             <div class="row">
                                 <div class="col-lg-4">
                                     <img src="arts/origin.jpg" width="100%"/>
                                 </div>
-                                <div class="col-lg-8">
-                                    <h4>0x Origin</h4>
+                                <div class="col-lg-8 rationale">
+                                    <h4><a href="javascript:swapcontent('origin')"><i class="fa fa-chevron-down"></i></a> 0x Origin</h4>
                                     <p>sample text</p>
+                                </div>
+                                <div class="col-lg-8 cardinfo" style="display:none">
+                                    <h4><a href="javascript:swapcontent('origin')"><i class="fa fa-chevron-up"></i></a> Ogdoadic Origin</h4>
+                                    <p>Field Spell<br>If a face-up Reptile monster(s) you control is destroyed by battle or an opponent's card effect: You can target 1 card your opponent controls; send it to the GY. If this card in the Field Zone is destroyed by your opponent's card effect: You can send cards from the top of your opponent's Deck to the GY, equal to the number of Reptile monsters with different names in your GY. You can only use each effect of "Ogdoadic Origin" once per turn.</p>
                                 </div>
                             </div>
                         </div>
@@ -263,14 +313,18 @@
             <div class="row justify-content-center">
                 <div class="col-lg-5">
                     <div class="card spell border-dark">
-                        <div class="card-body">
+                        <div class="card-body" id="strike">
                             <div class="row">
                                 <div class="col-lg-4">
                                     <img src="arts/strike.png" width="100%"/>
                                 </div>
-                                <div class="col-lg-8">
-                                    <h4>0-3x Serpent Strike</h4>
+                                <div class="col-lg-8 rationale">
+                                    <h4><a href="javascript:swapcontent('strike')"><i class="fa fa-chevron-down"></i></a> 0-3x Serpent Strike</h4>
                                     <p>sample text</p>
+                                </div>
+                                <div class="col-lg-8 cardinfo" style="display:none">
+                                    <h4><a href="javascript:swapcontent('strike')"><i class="fa fa-chevron-up"></i></a> Ogdoadic Serpent Strike</h4>
+                                    <p>Continuous Spell<br>You can send 1 monster from your hand or field to the GY, then target 1 Reptile monster in your GY with a different original Attribute than that monster; Special Summon it. During the Main Phase, if a monster is sent to your opponent's GY: You can send 1 Reptile monster from your Deck to the GY. You can only use each effect of "Ogdoadic Serpent Strike" once per turn.</p>
                                 </div>
                             </div>
                         </div>
@@ -278,14 +332,18 @@
                 </div>
                 <div class="col-lg-5">
                     <div class="card spell border-dark">
-                        <div class="card-body">
+                        <div class="card-body" id="lily">
                             <div class="row">
                                 <div class="col-lg-4">
                                     <img src="arts/lily.png" width="100%"/>
                                 </div>
-                                <div class="col-lg-8">
-                                    <h4>1-3x Water Lily</h4>
+                                <div class="col-lg-8 rationale">
+                                    <h4><a href="javascript:swapcontent('lily')"><i class="fa fa-chevron-down"></i></a> 1-3x Water Lily</h4>
                                     <p>sample text</p>
+                                </div>
+                                <div class="col-lg-8 cardinfo" style="display:none">
+                                    <h4><a href="javascript:swapcontent('lily')"><i class="fa fa-chevron-up"></i></a> Ogdoadic Water Lily</h4>
+                                    <p>Normal Spell<br>Send 1 Reptile monster from your Deck to the GY, then if you have 5 or more Reptile monsters with different names in your GY, you can Special Summon 1 Reptile monster from your GY. You can only activate 1 "Ogdoadic Water Lily" per turn.</p>
                                 </div>
                             </div>
                         </div>
@@ -295,14 +353,18 @@
             <div class="row justify-content-center">
                 <div class="col-lg-5">
                     <div class="card trap border-dark">
-                        <div class="card-body">
+                        <div class="card-body" id="calling">
                             <div class="row">
                                 <div class="col-lg-4">
                                     <img src="arts/calling.png" width="100%"/>
                                 </div>
-                                <div class="col-lg-8">
-                                    <h4>0x Calling</h4>
+                                <div class="col-lg-8 rationale">
+                                    <h4><a href="javascript:swapcontent('calling')"><i class="fa fa-chevron-down"></i></a> 0x Calling</h4>
                                     <p>sample text</p>
+                                </div>
+                                <div class="col-lg-8 cardinfo" style="display:none">
+                                    <h4><a href="javascript:swapcontent('calling')"><i class="fa fa-chevron-up"></i></a> Ogdoadic Calling</h4>
+                                    <p>Normal Trap<br>Special Summon 2 "Ogdoadic Tokens" (Reptile/DARK/Level 2/ATK 0/DEF 0), OR if you have 8 or more "Ogdoadic" monsters with different names in your GY, you can apply this effect instead.<br>●Special Summon 2 Reptile monsters with different names from your GY.<br>You can only activate 1 "Ogdoadic Calling" per turn.</p>
                                 </div>
                             </div>
                         </div>
@@ -310,14 +372,18 @@
                 </div>
                 <div class="col-lg-5">
                     <div class="card trap border-dark">
-                        <div class="card-body">
+                        <div class="card-body" id="hollow">
                             <div class="row">
                                 <div class="col-lg-4">
                                     <img src="arts/hollow.png" width="100%"/>
                                 </div>
-                                <div class="col-lg-8">
-                                    <h4>0x Hollow</h4>
+                                <div class="col-lg-8 rationale">
+                                    <h4><a href="javascript:swapcontent('hollow')"><i class="fa fa-chevron-down"></i></a> 0x Hollow</h4>
                                     <p>sample text</p>
+                                </div>
+                                <div class="col-lg-8 cardinfo" style="display:none">
+                                    <h4><a href="javascript:swapcontent('hollow')"><i class="fa fa-chevron-up"></i></a> Ogdoadic Hollow</h4>
+                                    <p>Continuous Trap<br>During the Main Phase: You can Tribute 1 Reptile Effect Monster, then target 1 monster in your opponent's GY; Special Summon it to your field, but send it to the GY during the End Phase. You can only use this effect of "Ogdoadic Hollow" once per turn. If this face-up card is sent from the Spell & Trap Zone to the GY: Send all face-up non-Reptile monsters you control to the GY.</p>
                                 </div>
                             </div>
                         </div>
@@ -338,8 +404,12 @@
                                 <div class="col-lg-4">
                                     <img src="arts/mamba.jpg" width="100%"/>
                                 </div>
-                                <div class="col-lg-8">
-                                    <h4>1x Black Mamba</h4>
+                                <div class="col-lg-8 rationale">
+                                    <h4><a href="javascript:swapcontent('')"><i class="fa fa-chevron-down"></i></a> 1x Black Mamba</h4>
+                                    <p>sample text</p>
+                                </div>
+                                <div class="col-lg-8 cardinfo" style="display:none">
+                                    <h4><a href="javascript:swapcontent('')"><i class="fa fa-chevron-up"></i></a> a</h4>
                                     <p>sample text</p>
                                 </div>
                             </div>
@@ -353,8 +423,12 @@
                                 <div class="col-lg-4">
                                     <img src="arts/nss.png" width="100%"/>
                                 </div>
-                                <div class="col-lg-8">
-                                    <h4>1x Night Sword Serpent</h4>
+                                <div class="col-lg-8 rationale">
+                                    <h4><a href="javascript:swapcontent('')"><i class="fa fa-chevron-down"></i></a> 1x Night Sword Serpent</h4>
+                                    <p>sample text</p>
+                                </div>
+                                <div class="col-lg-8 cardinfo" style="display:none">
+                                    <h4><a href="javascript:swapcontent('')"><i class="fa fa-chevron-up"></i></a> a</h4>
                                     <p>sample text</p>
                                 </div>
                             </div>
@@ -370,8 +444,12 @@
                                 <div class="col-lg-4">
                                     <img src="arts/lizard.jpg" width="100%"/>
                                 </div>
-                                <div class="col-lg-8">
-                                    <h4>0-1x Ragnaraika Armored Lizard</h4>
+                                <div class="col-lg-8 rationale">
+                                    <h4><a href="javascript:swapcontent('')"><i class="fa fa-chevron-down"></i></a> 0-1x Ragnaraika Armored Lizard</h4>
+                                    <p>sample text</p>
+                                </div>
+                                <div class="col-lg-8 cardinfo" style="display:none">
+                                    <h4><a href="javascript:swapcontent('')"><i class="fa fa-chevron-up"></i></a> a</h4>
                                     <p>sample text</p>
                                 </div>
                             </div>
@@ -385,8 +463,12 @@
                                 <div class="col-lg-4">
                                     <img src="arts/rain.png" width="100%"/>
                                 </div>
-                                <div class="col-lg-8">
-                                    <h4>3x Snake Rain</h4>
+                                <div class="col-lg-8 rationale">
+                                    <h4><a href="javascript:swapcontent('')"><i class="fa fa-chevron-down"></i></a> 3x Snake Rain</h4>
+                                    <p>sample text</p>
+                                </div>
+                                <div class="col-lg-8 cardinfo" style="display:none">
+                                    <h4><a href="javascript:swapcontent('')"><i class="fa fa-chevron-up"></i></a> a</h4>
                                     <p>sample text</p>
                                 </div>
                             </div>
@@ -402,8 +484,12 @@
                                 <div class="col-lg-4">
                                     <img src="arts/kotfi.jpg" width="100%"/>
                                 </div>
-                                <div class="col-lg-8">
-                                    <h4>2-3x King of the Feral Imps</h4>
+                                <div class="col-lg-8 rationale">
+                                    <h4><a href="javascript:swapcontent('')"><i class="fa fa-chevron-down"></i></a> 2-3x King of the Feral Imps</h4>
+                                    <p>sample text</p>
+                                </div>
+                                <div class="col-lg-8 cardinfo" style="display:none">
+                                    <h4><a href="javascript:swapcontent('')"><i class="fa fa-chevron-up"></i></a> a</h4>
                                     <p>sample text</p>
                                 </div>
                             </div>
@@ -417,8 +503,12 @@
                                 <div class="col-lg-4">
                                     <img src="arts/haggard.png" width="100%"/>
                                 </div>
-                                <div class="col-lg-8">
-                                    <h4>1x Haggard</h4>
+                                <div class="col-lg-8 rationale">
+                                    <h4><a href="javascript:swapcontent('')"><i class="fa fa-chevron-down"></i></a> 1x Haggard</h4>
+                                    <p>sample text</p>
+                                </div>
+                                <div class="col-lg-8 cardinfo" style="display:none">
+                                    <h4><a href="javascript:swapcontent('')"><i class="fa fa-chevron-up"></i></a> a</h4>
                                     <p>sample text</p>
                                 </div>
                             </div>
@@ -434,8 +524,12 @@
                                 <div class="col-lg-4">
                                     <img src="arts/echidna.png" width="100%"/>
                                 </div>
-                                <div class="col-lg-8">
-                                    <h4>1x Echidna</h4>
+                                <div class="col-lg-8 rationale">
+                                    <h4><a href="javascript:swapcontent('')"><i class="fa fa-chevron-down"></i></a> 1x Echidna</h4>
+                                    <p>sample text</p>
+                                </div>
+                                <div class="col-lg-8 cardinfo" style="display:none">
+                                    <h4><a href="javascript:swapcontent('')"><i class="fa fa-chevron-up"></i></a> a</h4>
                                     <p>sample text</p>
                                 </div>
                             </div>
@@ -463,8 +557,12 @@
                                     <div class="col-lg-4">
                                         <img src="arts/stealth.jpg" width="100%"/>
                                     </div>
-                                    <div class="col-lg-8">
-                                        <h4>Stealthbuster</h4>
+                                    <div class="col-lg-8 rationale">
+                                        <h4><a href="javascript:swapcontent('')"><i class="fa fa-chevron-down"></i></a> Stealthbuster</h4>
+                                        <p>sample text</p>
+                                    </div>
+                                    <div class="col-lg-8 cardinfo" style="display:none">
+                                        <h4><a href="javascript:swapcontent('')"><i class="fa fa-chevron-up"></i></a> a</h4>
                                         <p>sample text</p>
                                     </div>
                                 </div>
@@ -478,8 +576,12 @@
                                     <div class="col-lg-4">
                                         <img src="arts/recombination.png" width="100%"/>
                                     </div>
-                                    <div class="col-lg-8">
-                                        <h4>Recombination Device</h4>
+                                    <div class="col-lg-8 rationale">
+                                        <h4><a href="javascript:swapcontent('')"><i class="fa fa-chevron-down"></i></a> Recombination Device</h4>
+                                        <p>sample text</p>
+                                    </div>
+                                    <div class="col-lg-8 cardinfo" style="display:none">
+                                        <h4><a href="javascript:swapcontent('')"><i class="fa fa-chevron-up"></i></a> a</h4>
                                         <p>sample text</p>
                                     </div>
                                 </div>
@@ -495,8 +597,12 @@
                                     <div class="col-lg-4">
                                         <img src="arts/ppv.png" width="100%"/>
                                     </div>
-                                    <div class="col-lg-8">
-                                        <h4>1x Planet Pollutant Virus</h4>
+                                    <div class="col-lg-8 rationale">
+                                        <h4><a href="javascript:swapcontent('')"><i class="fa fa-chevron-down"></i></a> 1x Planet Pollutant Virus</h4>
+                                        <p>sample text</p>
+                                    </div>
+                                    <div class="col-lg-8 cardinfo" style="display:none">
+                                        <h4><a href="javascript:swapcontent('')"><i class="fa fa-chevron-up"></i></a> a</h4>
                                         <p>sample text</p>
                                     </div>
                                 </div>
@@ -510,8 +616,12 @@
                                     <div class="col-lg-4">
                                         <img src="arts/mframe.jpg" width="100%"/>
                                     </div>
-                                    <div class="col-lg-8">
-                                        <h4>1x M-Frame</h4>
+                                    <div class="col-lg-8 rationale">
+                                        <h4><a href="javascript:swapcontent('')"><i class="fa fa-chevron-down"></i></a> 1x M-Frame</h4>
+                                        <p>sample text</p>
+                                    </div>
+                                    <div class="col-lg-8 cardinfo" style="display:none">
+                                        <h4><a href="javascript:swapcontent('')"><i class="fa fa-chevron-up"></i></a> a</h4>
                                         <p>sample text</p>
                                     </div>
                                 </div>
@@ -527,8 +637,12 @@
                                     <div class="col-lg-4">
                                         <img src="arts/zeroll.png" width="100%"/>
                                     </div>
-                                    <div class="col-lg-8">
-                                        <h4>1x Zer'oll</h4>
+                                    <div class="col-lg-8 rationale">
+                                        <h4><a href="javascript:swapcontent('')"><i class="fa fa-chevron-down"></i></a> 1x Zer'oll</h4>
+                                        <p>sample text</p>
+                                    </div>
+                                    <div class="col-lg-8 cardinfo" style="display:none">
+                                        <h4><a href="javascript:swapcontent('')"><i class="fa fa-chevron-up"></i></a> a</h4>
                                         <p>sample text</p>
                                     </div>
                                 </div>
@@ -556,8 +670,12 @@
                                     <div class="col-lg-4">
                                         <img src="arts/lios.jpg" width="100%"/>
                                     </div>
-                                    <div class="col-lg-8">
-                                        <h4>1-3x Lios</h4>
+                                    <div class="col-lg-8 rationale">
+                                        <h4><a href="javascript:swapcontent('')"><i class="fa fa-chevron-down"></i></a> 1-3x Lios</h4>
+                                        <p>sample text</p>
+                                    </div>
+                                    <div class="col-lg-8 cardinfo" style="display:none">
+                                        <h4><a href="javascript:swapcontent('')"><i class="fa fa-chevron-up"></i></a> a</h4>
                                         <p>sample text</p>
                                     </div>
                                 </div>
@@ -571,8 +689,12 @@
                                     <div class="col-lg-4">
                                         <img src="arts/megachirella.png" width="100%"/>
                                     </div>
-                                    <div class="col-lg-8">
-                                        <h4>1x Megachirella</h4>
+                                    <div class="col-lg-8 rationale">
+                                        <h4><a href="javascript:swapcontent('')"><i class="fa fa-chevron-down"></i></a> 1x Megachirella</h4>
+                                        <p>sample text</p>
+                                    </div>
+                                    <div class="col-lg-8 cardinfo" style="display:none">
+                                        <h4><a href="javascript:swapcontent('')"><i class="fa fa-chevron-up"></i></a> a</h4>
                                         <p>sample text</p>
                                     </div>
                                 </div>
@@ -588,8 +710,12 @@
                                     <div class="col-lg-4">
                                         <img src="arts/misc.png" width="100%"/>
                                     </div>
-                                    <div class="col-lg-8">
-                                        <h4>1x Miscellaneousaurus</h4>
+                                    <div class="col-lg-8 rationale">
+                                        <h4><a href="javascript:swapcontent('')"><i class="fa fa-chevron-down"></i></a> 1x Miscellaneousaurus</h4>
+                                        <p>sample text</p>
+                                    </div>
+                                    <div class="col-lg-8 cardinfo" style="display:none">
+                                        <h4><a href="javascript:swapcontent('')"><i class="fa fa-chevron-up"></i></a> a</h4>
                                         <p>sample text</p>
                                     </div>
                                 </div>
@@ -603,8 +729,12 @@
                                     <div class="col-lg-4">
                                         <img src="arts/archo.png" width="100%"/>
                                     </div>
-                                    <div class="col-lg-8">
-                                        <h4>1x Archosaur</h4>
+                                    <div class="col-lg-8 rationale">
+                                        <h4><a href="javascript:swapcontent('')"><i class="fa fa-chevron-down"></i></a> 1x Archosaur</h4>
+                                        <p>sample text</p>
+                                    </div>
+                                    <div class="col-lg-8 cardinfo" style="display:none">
+                                        <h4><a href="javascript:swapcontent('')"><i class="fa fa-chevron-up"></i></a> a</h4>
                                         <p>sample text</p>
                                     </div>
                                 </div>
@@ -620,8 +750,12 @@
                                     <div class="col-lg-4">
                                         <img src="arts/singularity.png" width="100%"/>
                                     </div>
-                                    <div class="col-lg-8">
-                                        <h4>1x Evo-Singularity</h4>
+                                    <div class="col-lg-8 rationale">
+                                        <h4><a href="javascript:swapcontent('')"><i class="fa fa-chevron-down"></i></a> 1x Evo-Singularity</h4>
+                                        <p>sample text</p>
+                                    </div>
+                                    <div class="col-lg-8 cardinfo" style="display:none">
+                                        <h4><a href="javascript:swapcontent('')"><i class="fa fa-chevron-up"></i></a> a</h4>
                                         <p>sample text</p>
                                     </div>
                                 </div>
@@ -635,8 +769,12 @@
                                     <div class="col-lg-4">
                                         <img src="arts/dolkka.png" width="100%"/>
                                     </div>
-                                    <div class="col-lg-8">
-                                        <h4>0-1x Dolkka</h4>
+                                    <div class="col-lg-8 rationale">
+                                        <h4><a href="javascript:swapcontent('')"><i class="fa fa-chevron-down"></i></a> 0-1x Dolkka</h4>
+                                        <p>sample text</p>
+                                    </div>
+                                    <div class="col-lg-8 cardinfo" style="display:none">
+                                        <h4><a href="javascript:swapcontent('')"><i class="fa fa-chevron-up"></i></a> a</h4>
                                         <p>sample text</p>
                                     </div>
                                 </div>
@@ -652,8 +790,12 @@
                                     <div class="col-lg-4">
                                         <img src="arts/laggia.png" width="100%"/>
                                     </div>
-                                    <div class="col-lg-8">
-                                        <h4>0-1x Laggia</h4>
+                                    <div class="col-lg-8 rationale">
+                                        <h4><a href="javascript:swapcontent('')"><i class="fa fa-chevron-down"></i></a> 0-1x Laggia</h4>
+                                        <p>sample text</p>
+                                    </div>
+                                    <div class="col-lg-8 cardinfo" style="display:none">
+                                        <h4><a href="javascript:swapcontent('')"><i class="fa fa-chevron-up"></i></a> a</h4>
                                         <p>sample text</p>
                                     </div>
                                 </div>
@@ -667,8 +809,12 @@
                                     <div class="col-lg-4">
                                         <img src="arts/lars.png" width="100%"/>
                                     </div>
-                                    <div class="col-lg-8">
-                                        <h4>1x Lars</h4>
+                                    <div class="col-lg-8 rationale">
+                                        <h4><a href="javascript:swapcontent('')"><i class="fa fa-chevron-down"></i></a> 1x Lars</h4>
+                                        <p>sample text</p>
+                                    </div>
+                                    <div class="col-lg-8 cardinfo" style="display:none">
+                                        <h4><a href="javascript:swapcontent('')"><i class="fa fa-chevron-up"></i></a> a</h4>
                                         <p>sample text</p>
                                     </div>
                                 </div>
@@ -684,8 +830,12 @@
                                     <div class="col-lg-4">
                                         <img src="arts/prom.png" width="100%"/>
                                     </div>
-                                    <div class="col-lg-8">
-                                        <h4>1x Princess</h4>
+                                    <div class="col-lg-8 rationale">
+                                        <h4><a href="javascript:swapcontent('')"><i class="fa fa-chevron-down"></i></a> 1x Princess</h4>
+                                        <p>sample text</p>
+                                    </div>
+                                    <div class="col-lg-8 cardinfo" style="display:none">
+                                        <h4><a href="javascript:swapcontent('')"><i class="fa fa-chevron-up"></i></a> a</h4>
                                         <p>sample text</p>
                                     </div>
                                 </div>
@@ -713,8 +863,12 @@
                                     <div class="col-lg-4">
                                         <img src="arts/refrain.png" width="100%"/>
                                     </div>
-                                    <div class="col-lg-8">
-                                        <h4>3x Refrain</h4>
+                                    <div class="col-lg-8 rationale">
+                                        <h4><a href="javascript:swapcontent('')"><i class="fa fa-chevron-down"></i></a> 3x Refrain</h4>
+                                        <p>sample text</p>
+                                    </div>
+                                    <div class="col-lg-8 cardinfo" style="display:none">
+                                        <h4><a href="javascript:swapcontent('')"><i class="fa fa-chevron-up"></i></a> a</h4>
                                         <p>sample text</p>
                                     </div>
                                 </div>
@@ -728,8 +882,12 @@
                                     <div class="col-lg-4">
                                         <img src="arts/couplet.jpg" width="100%"/>
                                     </div>
-                                    <div class="col-lg-8">
-                                        <h4>1x Couplet</h4>
+                                    <div class="col-lg-8 rationale">
+                                        <h4><a href="javascript:swapcontent('')"><i class="fa fa-chevron-down"></i></a> 1x Couplet</h4>
+                                        <p>sample text</p>
+                                    </div>
+                                    <div class="col-lg-8 cardinfo" style="display:none">
+                                        <h4><a href="javascript:swapcontent('')"><i class="fa fa-chevron-up"></i></a> a</h4>
                                         <p>sample text</p>
                                     </div>
                                 </div>
@@ -745,8 +903,12 @@
                                     <div class="col-lg-4">
                                         <img src="arts/ostinato.jpg" width="100%"/>
                                     </div>
-                                    <div class="col-lg-8">
-                                        <h4>3x Ostinato</h4>
+                                    <div class="col-lg-8 rationale">
+                                        <h4><a href="javascript:swapcontent('')"><i class="fa fa-chevron-down"></i></a> 3x Ostinato</h4>
+                                        <p>sample text</p>
+                                    </div>
+                                    <div class="col-lg-8 cardinfo" style="display:none">
+                                        <h4><a href="javascript:swapcontent('')"><i class="fa fa-chevron-up"></i></a> a</h4>
                                         <p>sample text</p>
                                     </div>
                                 </div>
@@ -760,8 +922,12 @@
                                     <div class="col-lg-4">
                                         <img src="arts/concerto.png" width="100%"/>
                                     </div>
-                                    <div class="col-lg-8">
-                                        <h4>1x Concerto</h4>
+                                    <div class="col-lg-8 rationale">
+                                        <h4><a href="javascript:swapcontent('')"><i class="fa fa-chevron-down"></i></a> 1x Concerto</h4>
+                                        <p>sample text</p>
+                                    </div>
+                                    <div class="col-lg-8 cardinfo" style="display:none">
+                                        <h4><a href="javascript:swapcontent('')"><i class="fa fa-chevron-up"></i></a> a</h4>
                                         <p>sample text</p>
                                     </div>
                                 </div>
@@ -777,8 +943,12 @@
                                     <div class="col-lg-4">
                                         <img src="arts/bacha.jpg" width="100%"/>
                                     </div>
-                                    <div class="col-lg-8">
-                                        <h4>1-2x Bacha</h4>
+                                    <div class="col-lg-8 rationale">
+                                        <h4><a href="javascript:swapcontent('')"><i class="fa fa-chevron-down"></i></a> 1-2x Bacha</h4>
+                                        <p>sample text</p>
+                                    </div>
+                                    <div class="col-lg-8 cardinfo" style="display:none">
+                                        <h4><a href="javascript:swapcontent('')"><i class="fa fa-chevron-up"></i></a> a</h4>
                                         <p>sample text</p>
                                     </div>
                                 </div>
@@ -792,8 +962,12 @@
                                     <div class="col-lg-4">
                                         <img src="arts/schuberta.jpg" width="100%"/>
                                     </div>
-                                    <div class="col-lg-8">
-                                        <h4>0-1x Schuberta</h4>
+                                    <div class="col-lg-8 rationale">
+                                        <h4><a href="javascript:swapcontent('')"><i class="fa fa-chevron-down"></i></a> 0-1x Schuberta</h4>
+                                        <p>sample text</p>
+                                    </div>
+                                    <div class="col-lg-8 cardinfo" style="display:none">
+                                        <h4><a href="javascript:swapcontent('')"><i class="fa fa-chevron-up"></i></a> a</h4>
                                         <p>sample text</p>
                                     </div>
                                 </div>
@@ -818,8 +992,12 @@
                                     <div class="col-lg-4">
                                         <img src="arts/saji.jpg" width="100%"/>
                                     </div>
-                                    <div class="col-lg-8">
-                                        <h4>1-3x Saji</h4>
+                                    <div class="col-lg-8 rationale">
+                                        <h4><a href="javascript:swapcontent('')"><i class="fa fa-chevron-down"></i></a> 1-3x Saji</h4>
+                                        <p>sample text</p>
+                                    </div>
+                                    <div class="col-lg-8 cardinfo" style="display:none">
+                                        <h4><a href="javascript:swapcontent('')"><i class="fa fa-chevron-up"></i></a> a</h4>
                                         <p>sample text</p>
                                     </div>
                                 </div>
@@ -833,8 +1011,12 @@
                                     <div class="col-lg-4">
                                         <img src="arts/kusanagi.jpg" width="100%"/>
                                     </div>
-                                    <div class="col-lg-8">
-                                        <h4>1x Kusanagi</h4>
+                                    <div class="col-lg-8 rationale">
+                                        <h4><a href="javascript:swapcontent('')"><i class="fa fa-chevron-down"></i></a> 1x Kusanagi</h4>
+                                        <p>sample text</p>
+                                    </div>
+                                    <div class="col-lg-8 cardinfo" style="display:none">
+                                        <h4><a href="javascript:swapcontent('')"><i class="fa fa-chevron-up"></i></a> a</h4>
                                         <p>sample text</p>
                                     </div>
                                 </div>
@@ -850,8 +1032,12 @@
                                     <div class="col-lg-4">
                                         <img src="arts/futsu.jpg" width="100%"/>
                                     </div>
-                                    <div class="col-lg-8">
-                                        <h4>1x Futsu no Mitama</h4>
+                                    <div class="col-lg-8 rationale">
+                                        <h4><a href="javascript:swapcontent('')"><i class="fa fa-chevron-down"></i></a> 1x Futsu no Mitama</h4>
+                                        <p>sample text</p>
+                                    </div>
+                                    <div class="col-lg-8 cardinfo" style="display:none">
+                                        <h4><a href="javascript:swapcontent('')"><i class="fa fa-chevron-up"></i></a> a</h4>
                                         <p>sample text</p>
                                     </div>
                                 </div>
@@ -865,8 +1051,12 @@
                                     <div class="col-lg-4">
                                         <img src="arts/ame.jpg" width="100%"/>
                                     </div>
-                                    <div class="col-lg-8">
-                                        <h4>1x Ame no Murakumo</h4>
+                                    <div class="col-lg-8 rationale">
+                                        <h4><a href="javascript:swapcontent('')"><i class="fa fa-chevron-down"></i></a> 1x Ame no Murakumo</h4>
+                                        <p>sample text</p>
+                                    </div>
+                                    <div class="col-lg-8 cardinfo" style="display:none">
+                                        <h4><a href="javascript:swapcontent('')"><i class="fa fa-chevron-up"></i></a> a</h4>
                                         <p>sample text</p>
                                     </div>
                                 </div>
@@ -882,8 +1072,12 @@
                                     <div class="col-lg-4">
                                         <img src="arts/prayers.png" width="100%"/>
                                     </div>
-                                    <div class="col-lg-8">
-                                        <h4>3x Prayers</h4>
+                                    <div class="col-lg-8 rationale">
+                                        <h4><a href="javascript:swapcontent('')"><i class="fa fa-chevron-down"></i></a> 3x Prayers</h4>
+                                        <p>sample text</p>
+                                    </div>
+                                    <div class="col-lg-8 cardinfo" style="display:none">
+                                        <h4><a href="javascript:swapcontent('')"><i class="fa fa-chevron-up"></i></a> a</h4>
                                         <p>sample text</p>
                                     </div>
                                 </div>
@@ -897,8 +1091,12 @@
                                     <div class="col-lg-4">
                                         <img src="arts/ritual.png" width="100%"/>
                                     </div>
-                                    <div class="col-lg-8">
-                                        <h4>1-3x Ritual</h4>
+                                    <div class="col-lg-8 rationale">
+                                        <h4><a href="javascript:swapcontent('')"><i class="fa fa-chevron-down"></i></a> 1-3x Ritual</h4>
+                                        <p>sample text</p>
+                                    </div>
+                                    <div class="col-lg-8 cardinfo" style="display:none">
+                                        <h4><a href="javascript:swapcontent('')"><i class="fa fa-chevron-up"></i></a> a</h4>
                                         <p>sample text</p>
                                     </div>
                                 </div>
@@ -914,8 +1112,12 @@
                                     <div class="col-lg-4">
                                         <img src="arts/purification.png" width="100%"/>
                                     </div>
-                                    <div class="col-lg-8">
-                                        <h4>1x Purification</h4>
+                                    <div class="col-lg-8 rationale">
+                                        <h4><a href="javascript:swapcontent('')"><i class="fa fa-chevron-down"></i></a> 1x Purification</h4>
+                                        <p>sample text</p>
+                                    </div>
+                                    <div class="col-lg-8 cardinfo" style="display:none">
+                                        <h4><a href="javascript:swapcontent('')"><i class="fa fa-chevron-up"></i></a> a</h4>
                                         <p>sample text</p>
                                     </div>
                                 </div>
@@ -943,8 +1145,12 @@
                                     <div class="col-lg-4">
                                         <img src="arts/seed.jpg" width="100%"/>
                                     </div>
-                                    <div class="col-lg-8">
-                                        <h4>3x Seed</h4>
+                                    <div class="col-lg-8 rationale">
+                                        <h4><a href="javascript:swapcontent('')"><i class="fa fa-chevron-down"></i></a> 3x Seed</h4>
+                                        <p>sample text</p>
+                                    </div>
+                                    <div class="col-lg-8 cardinfo" style="display:none">
+                                        <h4><a href="javascript:swapcontent('')"><i class="fa fa-chevron-up"></i></a> a</h4>
                                         <p>sample text</p>
                                     </div>
                                 </div>
@@ -958,8 +1164,12 @@
                                     <div class="col-lg-4">
                                         <img src="arts/lizard.jpg" width="100%"/>
                                     </div>
-                                    <div class="col-lg-8">
-                                        <h4>1x Lizard</h4>
+                                    <div class="col-lg-8 rationale">
+                                        <h4><a href="javascript:swapcontent('')"><i class="fa fa-chevron-down"></i></a> 1x Lizard</h4>
+                                        <p>sample text</p>
+                                    </div>
+                                    <div class="col-lg-8 cardinfo" style="display:none">
+                                        <h4><a href="javascript:swapcontent('')"><i class="fa fa-chevron-up"></i></a> a</h4>
                                         <p>sample text</p>
                                     </div>
                                 </div>
@@ -975,8 +1185,12 @@
                                     <div class="col-lg-4">
                                         <img src="arts/beetle.jpg" width="100%"/>
                                     </div>
-                                    <div class="col-lg-8">
-                                        <h4>1x Beetle</h4>
+                                    <div class="col-lg-8 rationale">
+                                        <h4><a href="javascript:swapcontent('')"><i class="fa fa-chevron-down"></i></a> 1x Beetle</h4>
+                                        <p>sample text</p>
+                                    </div>
+                                    <div class="col-lg-8 cardinfo" style="display:none">
+                                        <h4><a href="javascript:swapcontent('')"><i class="fa fa-chevron-up"></i></a> a</h4>
                                         <p>sample text</p>
                                     </div>
                                 </div>
@@ -990,8 +1204,12 @@
                                     <div class="col-lg-4">
                                         <img src="arts/butterfly.png" width="100%"/>
                                     </div>
-                                    <div class="col-lg-8">
-                                        <h4>0-1x Butterfly</h4>
+                                    <div class="col-lg-8 rationale">
+                                        <h4><a href="javascript:swapcontent('')"><i class="fa fa-chevron-down"></i></a> 0-1x Butterfly</h4>
+                                        <p>sample text</p>
+                                    </div>
+                                    <div class="col-lg-8 cardinfo" style="display:none">
+                                        <h4><a href="javascript:swapcontent('')"><i class="fa fa-chevron-up"></i></a> a</h4>
                                         <p>sample text</p>
                                     </div>
                                 </div>
@@ -1007,8 +1225,12 @@
                                     <div class="col-lg-4">
                                         <img src="arts/bloom.jpg" width="100%"/>
                                     </div>
-                                    <div class="col-lg-8">
-                                        <h4>3x Bloom</h4>
+                                    <div class="col-lg-8 rationale">
+                                        <h4><a href="javascript:swapcontent('')"><i class="fa fa-chevron-down"></i></a> 3x Bloom</h4>
+                                        <p>sample text</p>
+                                    </div>
+                                    <div class="col-lg-8 cardinfo" style="display:none">
+                                        <h4><a href="javascript:swapcontent('')"><i class="fa fa-chevron-up"></i></a> a</h4>
                                         <p>sample text</p>
                                     </div>
                                 </div>
@@ -1022,8 +1244,12 @@
                                     <div class="col-lg-4">
                                         <img src="arts/dance.png" width="100%"/>
                                     </div>
-                                    <div class="col-lg-8">
-                                        <h4>0-1x Dance</h4>
+                                    <div class="col-lg-8 rationale">
+                                        <h4><a href="javascript:swapcontent('')"><i class="fa fa-chevron-down"></i></a> 0-1x Dance</h4>
+                                        <p>sample text</p>
+                                    </div>
+                                    <div class="col-lg-8 cardinfo" style="display:none">
+                                        <h4><a href="javascript:swapcontent('')"><i class="fa fa-chevron-up"></i></a> a</h4>
                                         <p>sample text</p>
                                     </div>
                                 </div>
@@ -1039,8 +1265,12 @@
                                     <div class="col-lg-4">
                                         <img src="arts/wisteria.png" width="100%"/>
                                     </div>
-                                    <div class="col-lg-8">
-                                        <h4>0-1x Wisteria</h4>
+                                    <div class="col-lg-8 rationale">
+                                        <h4><a href="javascript:swapcontent('')"><i class="fa fa-chevron-down"></i></a> 0-1x Wisteria</h4>
+                                        <p>sample text</p>
+                                    </div>
+                                    <div class="col-lg-8 cardinfo" style="display:none">
+                                        <h4><a href="javascript:swapcontent('')"><i class="fa fa-chevron-up"></i></a> a</h4>
                                         <p>sample text</p>
                                     </div>
                                 </div>
@@ -1054,8 +1284,12 @@
                                     <div class="col-lg-4">
                                         <img src="arts/skeletal.jpg" width="100%"/>
                                     </div>
-                                    <div class="col-lg-8">
-                                        <h4>1-2x Soldier</h4>
+                                    <div class="col-lg-8 rationale">
+                                        <h4><a href="javascript:swapcontent('')"><i class="fa fa-chevron-down"></i></a> 1-2x Soldier</h4>
+                                        <p>sample text</p>
+                                    </div>
+                                    <div class="col-lg-8 cardinfo" style="display:none">
+                                        <h4><a href="javascript:swapcontent('')"><i class="fa fa-chevron-up"></i></a> a</h4>
                                         <p>sample text</p>
                                     </div>
                                 </div>
@@ -1071,8 +1305,12 @@
                                     <div class="col-lg-4">
                                         <img src="arts/mantis.jpg" width="100%"/>
                                     </div>
-                                    <div class="col-lg-8">
-                                        <h4>1x Mantis</h4>
+                                    <div class="col-lg-8 rationale">
+                                        <h4><a href="javascript:swapcontent('')"><i class="fa fa-chevron-down"></i></a> 1x Mantis</h4>
+                                        <p>sample text</p>
+                                    </div>
+                                    <div class="col-lg-8 cardinfo" style="display:none">
+                                        <h4><a href="javascript:swapcontent('')"><i class="fa fa-chevron-up"></i></a> a</h4>
                                         <p>sample text</p>
                                     </div>
                                 </div>
@@ -1086,8 +1324,12 @@
                                     <div class="col-lg-4">
                                         <img src="arts/snapper.png" width="100%"/>
                                     </div>
-                                    <div class="col-lg-8">
-                                        <h4>1x Snapper</h4>
+                                    <div class="col-lg-8 rationale">
+                                        <h4><a href="javascript:swapcontent('')"><i class="fa fa-chevron-down"></i></a> 1x Snapper</h4>
+                                        <p>sample text</p>
+                                    </div>
+                                    <div class="col-lg-8 cardinfo" style="display:none">
+                                        <h4><a href="javascript:swapcontent('')"><i class="fa fa-chevron-up"></i></a> a</h4>
                                         <p>sample text</p>
                                     </div>
                                 </div>
@@ -1103,8 +1345,12 @@
                                     <div class="col-lg-4">
                                         <img src="arts/coils.jpg" width="100%"/>
                                     </div>
-                                    <div class="col-lg-8">
-                                        <h4>1x Coils</h4>
+                                    <div class="col-lg-8 rationale">
+                                        <h4><a href="javascript:swapcontent('')"><i class="fa fa-chevron-down"></i></a> 1x Coils</h4>
+                                        <p>sample text</p>
+                                    </div>
+                                    <div class="col-lg-8 cardinfo" style="display:none">
+                                        <h4><a href="javascript:swapcontent('')"><i class="fa fa-chevron-up"></i></a> a</h4>
                                         <p>sample text</p>
                                     </div>
                                 </div>
@@ -1118,8 +1364,12 @@
                                     <div class="col-lg-4">
                                         <img src="arts/stag.jpg" width="100%"/>
                                     </div>
-                                    <div class="col-lg-8">
-                                        <h4>1x Stag</h4>
+                                    <div class="col-lg-8 rationale">
+                                        <h4><a href="javascript:swapcontent('')"><i class="fa fa-chevron-down"></i></a> 1x Stag</h4>
+                                        <p>sample text</p>
+                                    </div>
+                                    <div class="col-lg-8 cardinfo" style="display:none">
+                                        <h4><a href="javascript:swapcontent('')"><i class="fa fa-chevron-up"></i></a> a</h4>
                                         <p>sample text</p>
                                     </div>
                                 </div>
@@ -1144,8 +1394,12 @@
                                     <div class="col-lg-4">
                                         <img src="arts/coatl.png" width="100%"/>
                                     </div>
-                                    <div class="col-lg-8">
-                                        <h4>1-3x Coatl</h4>
+                                    <div class="col-lg-8 rationale">
+                                        <h4><a href="javascript:swapcontent('')"><i class="fa fa-chevron-down"></i></a> 1-3x Coatl</h4>
+                                        <p>sample text</p>
+                                    </div>
+                                    <div class="col-lg-8 cardinfo" style="display:none">
+                                        <h4><a href="javascript:swapcontent('')"><i class="fa fa-chevron-up"></i></a> a</h4>
                                         <p>sample text</p>
                                     </div>
                                 </div>
@@ -1159,8 +1413,12 @@
                                     <div class="col-lg-4">
                                         <img src="arts/lamia.jpg" width="100%"/>
                                     </div>
-                                    <div class="col-lg-8">
-                                        <h4>0-1x Lamia</h4>
+                                    <div class="col-lg-8 rationale">
+                                        <h4><a href="javascript:swapcontent('')"><i class="fa fa-chevron-down"></i></a> 0-1x Lamia</h4>
+                                        <p>sample text</p>
+                                    </div>
+                                    <div class="col-lg-8 cardinfo" style="display:none">
+                                        <h4><a href="javascript:swapcontent('')"><i class="fa fa-chevron-up"></i></a> a</h4>
                                         <p>sample text</p>
                                     </div>
                                 </div>
@@ -1176,8 +1434,12 @@
                                     <div class="col-lg-4">
                                         <img src="arts/nyami.png" width="100%"/>
                                     </div>
-                                    <div class="col-lg-8">
-                                        <h4>0-1x Nyami</h4>
+                                    <div class="col-lg-8 rationale">
+                                        <h4><a href="javascript:swapcontent('')"><i class="fa fa-chevron-down"></i></a> 0-1x Nyami</h4>
+                                        <p>sample text</p>
+                                    </div>
+                                    <div class="col-lg-8 cardinfo" style="display:none">
+                                        <h4><a href="javascript:swapcontent('')"><i class="fa fa-chevron-up"></i></a> a</h4>
                                         <p>sample text</p>
                                     </div>
                                 </div>
@@ -1191,8 +1453,12 @@
                                     <div class="col-lg-4">
                                         <img src="arts/vaskii.png" width="100%"/>
                                     </div>
-                                    <div class="col-lg-8">
-                                        <h4>0-1x Vaskii</h4>
+                                    <div class="col-lg-8 rationale">
+                                        <h4><a href="javascript:swapcontent('')"><i class="fa fa-chevron-down"></i></a> 0-1x Vaskii</h4>
+                                        <p>sample text</p>
+                                    </div>
+                                    <div class="col-lg-8 cardinfo" style="display:none">
+                                        <h4><a href="javascript:swapcontent('')"><i class="fa fa-chevron-up"></i></a> a</h4>
                                         <p>sample text</p>
                                     </div>
                                 </div>
@@ -1208,8 +1474,12 @@
                                     <div class="col-lg-4">
                                         <img src="arts/ramifications.png" width="100%"/>
                                     </div>
-                                    <div class="col-lg-8">
-                                        <h4>3x Ramifications</h4>
+                                    <div class="col-lg-8 rationale">
+                                        <h4><a href="javascript:swapcontent('')"><i class="fa fa-chevron-down"></i></a> 3x Ramifications</h4>
+                                        <p>sample text</p>
+                                    </div>
+                                    <div class="col-lg-8 cardinfo" style="display:none">
+                                        <h4><a href="javascript:swapcontent('')"><i class="fa fa-chevron-up"></i></a> a</h4>
                                         <p>sample text</p>
                                     </div>
                                 </div>
@@ -1223,8 +1493,12 @@
                                     <div class="col-lg-4">
                                         <img src="arts/recoil.png" width="100%"/>
                                     </div>
-                                    <div class="col-lg-8">
-                                        <h4>1x Recoil</h4>
+                                    <div class="col-lg-8 rationale">
+                                        <h4><a href="javascript:swapcontent('')"><i class="fa fa-chevron-down"></i></a> 1x Recoil</h4>
+                                        <p>sample text</p>
+                                    </div>
+                                    <div class="col-lg-8 cardinfo" style="display:none">
+                                        <h4><a href="javascript:swapcontent('')"><i class="fa fa-chevron-up"></i></a> a</h4>
                                         <p>sample text</p>
                                     </div>
                                 </div>
@@ -1240,8 +1514,12 @@
                                     <div class="col-lg-4">
                                         <img src="arts/spawn.png" width="100%"/>
                                     </div>
-                                    <div class="col-lg-8">
-                                        <h4>0-1x Spawn</h4>
+                                    <div class="col-lg-8 rationale">
+                                        <h4><a href="javascript:swapcontent('')"><i class="fa fa-chevron-down"></i></a> 0-1x Spawn</h4>
+                                        <p>sample text</p>
+                                    </div>
+                                    <div class="col-lg-8 cardinfo" style="display:none">
+                                        <h4><a href="javascript:swapcontent('')"><i class="fa fa-chevron-up"></i></a> a</h4>
                                         <p>sample text</p>
                                     </div>
                                 </div>
@@ -1255,8 +1533,12 @@
                                     <div class="col-lg-4">
                                         <img src="arts/hydra.png" width="100%"/>
                                     </div>
-                                    <div class="col-lg-8">
-                                        <h4>0-1x Hydra</h4>
+                                    <div class="col-lg-8 rationale">
+                                        <h4><a href="javascript:swapcontent('')"><i class="fa fa-chevron-down"></i></a> 0-1x Hydra</h4>
+                                        <p>sample text</p>
+                                    </div>
+                                    <div class="col-lg-8 cardinfo" style="display:none">
+                                        <h4><a href="javascript:swapcontent('')"><i class="fa fa-chevron-up"></i></a> a</h4>
                                         <p>sample text</p>
                                     </div>
                                 </div>
@@ -1272,8 +1554,12 @@
                                     <div class="col-lg-4">
                                         <img src="arts/melusine.png" width="100%"/>
                                     </div>
-                                    <div class="col-lg-8">
-                                        <h4>0-1x Melusine</h4>
+                                    <div class="col-lg-8 rationale">
+                                        <h4><a href="javascript:swapcontent('')"><i class="fa fa-chevron-down"></i></a> 0-1x Melusine</h4>
+                                        <p>sample text</p>
+                                    </div>
+                                    <div class="col-lg-8 cardinfo" style="display:none">
+                                        <h4><a href="javascript:swapcontent('')"><i class="fa fa-chevron-up"></i></a> a</h4>
                                         <p>sample text</p>
                                     </div>
                                 </div>
@@ -1300,8 +1586,12 @@
                                     <div class="col-lg-4">
                                         <img src="arts/alasia.jpg" width="100%"/>
                                     </div>
-                                    <div class="col-lg-8">
-                                        <h4>1x Alasia</h4>
+                                    <div class="col-lg-8 rationale">
+                                        <h4><a href="javascript:swapcontent('')"><i class="fa fa-chevron-down"></i></a> 1x Alasia</h4>
+                                        <p>sample text</p>
+                                    </div>
+                                    <div class="col-lg-8 cardinfo" style="display:none">
+                                        <h4><a href="javascript:swapcontent('')"><i class="fa fa-chevron-up"></i></a> a</h4>
                                         <p>sample text</p>
                                     </div>
                                 </div>
@@ -1315,8 +1605,12 @@
                                     <div class="col-lg-4">
                                         <img src="arts/regulus.jpg" width="100%"/>
                                     </div>
-                                    <div class="col-lg-8">
-                                        <h4>1x Regulus</h4>
+                                    <div class="col-lg-8 rationale">
+                                        <h4><a href="javascript:swapcontent('')"><i class="fa fa-chevron-down"></i></a> 1x Regulus</h4>
+                                        <p>sample text</p>
+                                    </div>
+                                    <div class="col-lg-8 cardinfo" style="display:none">
+                                        <h4><a href="javascript:swapcontent('')"><i class="fa fa-chevron-up"></i></a> a</h4>
                                         <p>sample text</p>
                                     </div>
                                 </div>
@@ -1332,8 +1626,12 @@
                                     <div class="col-lg-4">
                                         <img src="arts/borea.jpg" width="100%"/>
                                     </div>
-                                    <div class="col-lg-8">
-                                        <h4>0-1x Borea</h4>
+                                    <div class="col-lg-8 rationale">
+                                        <h4><a href="javascript:swapcontent('')"><i class="fa fa-chevron-down"></i></a> 0-1x Borea</h4>
+                                        <p>sample text</p>
+                                    </div>
+                                    <div class="col-lg-8 cardinfo" style="display:none">
+                                        <h4><a href="javascript:swapcontent('')"><i class="fa fa-chevron-up"></i></a> a</h4>
                                         <p>sample text</p>
                                     </div>
                                 </div>
@@ -1347,8 +1645,12 @@
                                     <div class="col-lg-4">
                                         <img src="arts/disco.jpg" width="100%"/>
                                     </div>
-                                    <div class="col-lg-8">
-                                        <h4>0-1x Discolosseum</h4>
+                                    <div class="col-lg-8 rationale">
+                                        <h4><a href="javascript:swapcontent('')"><i class="fa fa-chevron-down"></i></a> 0-1x Discolosseum</h4>
+                                        <p>sample text</p>
+                                    </div>
+                                    <div class="col-lg-8 cardinfo" style="display:none">
+                                        <h4><a href="javascript:swapcontent('')"><i class="fa fa-chevron-up"></i></a> a</h4>
                                         <p>sample text</p>
                                     </div>
                                 </div>
@@ -1364,8 +1666,12 @@
                                     <div class="col-lg-4">
                                         <img src="arts/merry.png" width="100%"/>
                                     </div>
-                                    <div class="col-lg-8">
-                                        <h4>1x Merrymaker</h4>
+                                    <div class="col-lg-8 rationale">
+                                        <h4><a href="javascript:swapcontent('')"><i class="fa fa-chevron-down"></i></a> 1x Merrymaker</h4>
+                                        <p>sample text</p>
+                                    </div>
+                                    <div class="col-lg-8 cardinfo" style="display:none">
+                                        <h4><a href="javascript:swapcontent('')"><i class="fa fa-chevron-up"></i></a> a</h4>
                                         <p>sample text</p>
                                     </div>
                                 </div>
@@ -1379,8 +1685,12 @@
                                     <div class="col-lg-4">
                                         <img src="arts/sargas.jpg" width="100%"/>
                                     </div>
-                                    <div class="col-lg-8">
-                                        <h4>1x Sargas</h4>
+                                    <div class="col-lg-8 rationale">
+                                        <h4><a href="javascript:swapcontent('')"><i class="fa fa-chevron-down"></i></a> 1x Sargas</h4>
+                                        <p>sample text</p>
+                                    </div>
+                                    <div class="col-lg-8 cardinfo" style="display:none">
+                                        <h4><a href="javascript:swapcontent('')"><i class="fa fa-chevron-up"></i></a> a</h4>
                                         <p>sample text</p>
                                     </div>
                                 </div>
@@ -1405,8 +1715,12 @@
                                 <div class="col-lg-4">
                                     <img src="arts/aratama.png" width="100%"/>
                                 </div>
-                                <div class="col-lg-8">
-                                    <h4>Aratama</h4>
+                                <div class="col-lg-8 rationale">
+                                    <h4><a href="javascript:swapcontent('')"><i class="fa fa-chevron-down"></i></a> Aratama</h4>
+                                    <p>sample text</p>
+                                </div>
+                                <div class="col-lg-8 cardinfo" style="display:none">
+                                    <h4><a href="javascript:swapcontent('')"><i class="fa fa-chevron-up"></i></a> a</h4>
                                     <p>sample text</p>
                                 </div>
                             </div>
@@ -1420,8 +1734,12 @@
                                 <div class="col-lg-4">
                                     <img src="arts/sakitama.png" width="100%"/>
                                 </div>
-                                <div class="col-lg-8">
-                                    <h4>Sakitama</h4>
+                                <div class="col-lg-8 rationale">
+                                    <h4><a href="javascript:swapcontent('')"><i class="fa fa-chevron-down"></i></a> Sakitama</h4>
+                                    <p>sample text</p>
+                                </div>
+                                <div class="col-lg-8 cardinfo" style="display:none">
+                                    <h4><a href="javascript:swapcontent('')"><i class="fa fa-chevron-up"></i></a> a</h4>
                                     <p>sample text</p>
                                 </div>
                             </div>
@@ -1437,8 +1755,12 @@
                                 <div class="col-lg-4">
                                     <img src="arts/ias.jpg" width="100%"/>
                                 </div>
-                                <div class="col-lg-8">
-                                    <h4>I.A.S</h4>
+                                <div class="col-lg-8 rationale">
+                                    <h4><a href="javascript:swapcontent('')"><i class="fa fa-chevron-down"></i></a> I.A.S</h4>
+                                    <p>sample text</p>
+                                </div>
+                                <div class="col-lg-8 cardinfo" style="display:none">
+                                    <h4><a href="javascript:swapcontent('')"><i class="fa fa-chevron-up"></i></a> a</h4>
                                     <p>sample text</p>
                                 </div>
                             </div>
@@ -1452,8 +1774,12 @@
                                 <div class="col-lg-4">
                                     <img src="arts/lamia.png" width="100%"/>
                                 </div>
-                                <div class="col-lg-8">
-                                    <h4>Lamia</h4>
+                                <div class="col-lg-8 rationale">
+                                    <h4><a href="javascript:swapcontent('')"><i class="fa fa-chevron-down"></i></a> Lamia</h4>
+                                    <p>sample text</p>
+                                </div>
+                                <div class="col-lg-8 cardinfo" style="display:none">
+                                    <h4><a href="javascript:swapcontent('')"><i class="fa fa-chevron-up"></i></a> a</h4>
                                     <p>sample text</p>
                                 </div>
                             </div>
@@ -1469,8 +1795,12 @@
                                 <div class="col-lg-4">
                                     <img src="arts/eto.png" width="100%"/>
                                 </div>
-                                <div class="col-lg-8">
-                                    <h4>Liberator Eto</h4>
+                                <div class="col-lg-8 rationale">
+                                    <h4><a href="javascript:swapcontent('')"><i class="fa fa-chevron-down"></i></a> Liberator Eto</h4>
+                                    <p>sample text</p>
+                                </div>
+                                <div class="col-lg-8 cardinfo" style="display:none">
+                                    <h4><a href="javascript:swapcontent('')"><i class="fa fa-chevron-up"></i></a> a</h4>
                                     <p>sample text</p>
                                 </div>
                             </div>
@@ -1484,8 +1814,12 @@
                                 <div class="col-lg-4">
                                     <img src="arts/vanguard.png" width="100%"/>
                                 </div>
-                                <div class="col-lg-8">
-                                    <h4>Vanguard of the Underground Emperor</h4>
+                                <div class="col-lg-8 rationale">
+                                    <h4><a href="javascript:swapcontent('')"><i class="fa fa-chevron-down"></i></a> Vanguard of the Underground Emperor</h4>
+                                    <p>sample text</p>
+                                </div>
+                                <div class="col-lg-8 cardinfo" style="display:none">
+                                    <h4><a href="javascript:swapcontent('')"><i class="fa fa-chevron-up"></i></a> a</h4>
                                     <p>sample text</p>
                                 </div>
                             </div>
@@ -1501,8 +1835,12 @@
                                 <div class="col-lg-4">
                                     <img src="arts/abaubau.png" width="100%"/>
                                 </div>
-                                <div class="col-lg-8">
-                                    <h4>A Bao A Qu</h4>
+                                <div class="col-lg-8 rationale">
+                                    <h4><a href="javascript:swapcontent('')"><i class="fa fa-chevron-down"></i></a> A Bao A Qu</h4>
+                                    <p>sample text</p>
+                                </div>
+                                <div class="col-lg-8 cardinfo" style="display:none">
+                                    <h4><a href="javascript:swapcontent('')"><i class="fa fa-chevron-up"></i></a> a</h4>
                                     <p>sample text</p>
                                 </div>
                             </div>
@@ -1516,8 +1854,12 @@
                                 <div class="col-lg-4">
                                     <img src="arts/spider.png" width="100%"/>
                                 </div>
-                                <div class="col-lg-8">
-                                    <h4>Link Spider</h4>
+                                <div class="col-lg-8 rationale">
+                                    <h4><a href="javascript:swapcontent('')"><i class="fa fa-chevron-down"></i></a> Link Spider</h4>
+                                    <p>sample text</p>
+                                </div>
+                                <div class="col-lg-8 cardinfo" style="display:none">
+                                    <h4><a href="javascript:swapcontent('')"><i class="fa fa-chevron-up"></i></a> a</h4>
                                     <p>sample text</p>
                                 </div>
                             </div>
@@ -1533,8 +1875,12 @@
                                 <div class="col-lg-4">
                                     <img src="arts/sprind.png" width="100%"/>
                                 </div>
-                                <div class="col-lg-8">
-                                    <h4>Sprind</h4>
+                                <div class="col-lg-8 rationale">
+                                    <h4><a href="javascript:swapcontent('')"><i class="fa fa-chevron-down"></i></a> Sprind</h4>
+                                    <p>sample text</p>
+                                </div>
+                                <div class="col-lg-8 cardinfo" style="display:none">
+                                    <h4><a href="javascript:swapcontent('')"><i class="fa fa-chevron-up"></i></a> a</h4>
                                     <p>sample text</p>
                                 </div>
                             </div>
@@ -1548,8 +1894,12 @@
                                 <div class="col-lg-4">
                                     <img src="arts/arclight.jpg" width="100%"/>
                                 </div>
-                                <div class="col-lg-8">
-                                    <h4>Arc Light</h4>
+                                <div class="col-lg-8 rationale">
+                                    <h4><a href="javascript:swapcontent('')"><i class="fa fa-chevron-down"></i></a> Arc Light</h4>
+                                    <p>sample text</p>
+                                </div>
+                                <div class="col-lg-8 cardinfo" style="display:none">
+                                    <h4><a href="javascript:swapcontent('')"><i class="fa fa-chevron-up"></i></a> a</h4>
                                     <p>sample text</p>
                                 </div>
                             </div>
@@ -1565,8 +1915,12 @@
                                 <div class="col-lg-4">
                                     <img src="arts/strenna.png" width="100%"/>
                                 </div>
-                                <div class="col-lg-8">
-                                    <h4>Strenna</h4>
+                                <div class="col-lg-8 rationale">
+                                    <h4><a href="javascript:swapcontent('')"><i class="fa fa-chevron-down"></i></a> Strenna</h4>
+                                    <p>sample text</p>
+                                </div>
+                                <div class="col-lg-8 cardinfo" style="display:none">
+                                    <h4><a href="javascript:swapcontent('')"><i class="fa fa-chevron-up"></i></a> a</h4>
                                     <p>sample text</p>
                                 </div>
                             </div>
@@ -1580,8 +1934,12 @@
                                 <div class="col-lg-4">
                                     <img src="arts/twins.png" width="100%"/>
                                 </div>
-                                <div class="col-lg-8">
-                                    <h4>Eclipse Twins</h4>
+                                <div class="col-lg-8 rationale">
+                                    <h4><a href="javascript:swapcontent('')"><i class="fa fa-chevron-down"></i></a> Eclipse Twins</h4>
+                                    <p>sample text</p>
+                                </div>
+                                <div class="col-lg-8 cardinfo" style="display:none">
+                                    <h4><a href="javascript:swapcontent('')"><i class="fa fa-chevron-up"></i></a> a</h4>
                                     <p>sample text</p>
                                 </div>
                             </div>
@@ -1597,8 +1955,12 @@
                                 <div class="col-lg-4">
                                     <img src="arts/duality.png" width="100%"/>
                                 </div>
-                                <div class="col-lg-8">
-                                    <h4>Duality</h4>
+                                <div class="col-lg-8 rationale">
+                                    <h4><a href="javascript:swapcontent('')"><i class="fa fa-chevron-down"></i></a> Duality</h4>
+                                    <p>sample text</p>
+                                </div>
+                                <div class="col-lg-8 cardinfo" style="display:none">
+                                    <h4><a href="javascript:swapcontent('')"><i class="fa fa-chevron-up"></i></a> a</h4>
                                     <p>sample text</p>
                                 </div>
                             </div>
@@ -1612,8 +1974,12 @@
                                 <div class="col-lg-4">
                                     <img src="arts/shadowslight.png" width="100%"/>
                                 </div>
-                                <div class="col-lg-8">
-                                    <h4>Shadow's Light</h4>
+                                <div class="col-lg-8 rationale">
+                                    <h4><a href="javascript:swapcontent('')"><i class="fa fa-chevron-down"></i></a> Shadow's Light</h4>
+                                    <p>sample text</p>
+                                </div>
+                                <div class="col-lg-8 cardinfo" style="display:none">
+                                    <h4><a href="javascript:swapcontent('')"><i class="fa fa-chevron-up"></i></a> a</h4>
                                     <p>sample text</p>
                                 </div>
                             </div>
