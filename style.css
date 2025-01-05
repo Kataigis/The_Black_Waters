@@ -161,3 +161,13 @@ img {
 h3 {
     color: #f4de54;
 }
+
+.tab-content-wrapper {
+    overflow: hidden;
+    transition: height 0.4s ease; /* Adjust duration and easing as needed */
+}
+  
+.tab-content {
+    display: flex;
+    flex-direction: column;
+}
